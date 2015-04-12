@@ -9,4 +9,12 @@ or
 **fpc avrsim.lpr**
 
 ## Running
-avrsim
+*avrsim file.bin*
+
+Normal simulation
+
+
+
+*avrsim -d2159 file.bin*
+
+Starts a new simulation, halts at address 0, and waits for GDB Remote connections on the given port(2159 in this example).
